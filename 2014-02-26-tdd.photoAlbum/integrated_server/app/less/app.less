@@ -1,0 +1,121 @@
+@bg-color: lightgrey;
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700italic);
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+
+
+body{
+  background-color: @bg-color;
+  background-image: url(../img/background.jpg);
+}
+
+legend{
+  background-color: white !important;
+  color: black;
+  padding: 5px !important;
+  border-radius: 5px;
+}
+
+fieldset{
+  border: 2px solid white !important;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 90px;
+  font-weight: bold;
+  font-family: 'Playfair Display SC';
+  line-height: 1em;
+  text-shadow: 0px 0px 0 rgb(231,231,231),1px 1px 0 rgb(216,216,216),2px 2px 0 rgb(202,202,202),3px 3px 0 rgb(187,187,187),4px 4px 0 rgb(173,173,173),5px 5px 0 rgb(158,158,158), 6px 6px 0 rgb(144,144,144),7px 7px 6px rgba(0,0,0,1),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+  margin: 0 0 40px 0;
+}
+
+h4{
+  color: red;
+}
+
+a{
+  color: white;
+  font-size: 6;
+}
+
+.album{
+  opacity: 0.8;
+  position: relative;
+  float: left;
+  border: 20px;
+  border-style: outset;
+  border-radius: 35px;
+  border-image-slice: 27 27 27 27; 
+  border-image-width: 20px 20px 20px 20px; 
+  border-image-outset: 0px 0px 0px 0px; 
+  border-image-repeat: stretch stretch; 
+  border-image-source: url("../img/frame.jpg");
+
+  height: 172.5px;
+  width: 300px;
+  margin: 11px;
+  background-size: cover;
+}
+
+.album:hover{
+  font-weight: bold;
+}
+
+.fade{
+  opacity: 0.6;
+}
+
+.album:hover{
+  opacity: 1.0;;
+}
+
+.panel{
+  background-color: lightgrey;
+  opacity: 0.9;
+}
+
+.panel:after{
+  opacity: 1.0 !important;
+}
+
+.title{
+  color: red;
+  font-size: 24px;
+  font-family: 'Nothing You Could Do';
+  position: absolute;
+  top: 15px;
+  left: 5px;
+}
+
+.date{
+  color: red;
+  font-size: 16px;
+  font-family: 'Nothing You Could Do';
+  position: absolute;
+  bottom: 2px;
+  right: 8px;
+}
+
+.clear{
+  clear: both;
+}
+
+.delete{
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  height: 12px;
+  width: 12px;
+  background-size: cover;
+}
+
+.relative{
+  position: relative;
+}  
+
+.link{
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
